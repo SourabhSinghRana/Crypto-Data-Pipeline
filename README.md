@@ -3,7 +3,7 @@ Data Pipeline for loading scraped data to redshift.
 
 The project involves utilizing various tools and technologies to perform data transformation, scraping, storage, and analysis related to cryptocurrency data. Here's how these tools are being used:
 
-1.Airflow: Airflow is an open-source platform used to programmatically author, schedule, and monitor workflows. It allows the user to define complex data pipelines as directed acyclic graphs (DAGs), making it ideal for data orchestration and transformation. In this project, Airflow is used to schedule and monitor the workflow, ensuring that data transformation tasks are executed in the correct order.
+## 1.Airflow: Airflow is an open-source platform used to programmatically author, schedule, and monitor workflows. It allows the user to define complex data pipelines as directed acyclic graphs (DAGs), making it ideal for data orchestration and transformation. In this project, Airflow is used to schedule and monitor the workflow, ensuring that data transformation tasks are executed in the correct order.
 
 1.EC2 instance: Amazon Elastic Compute Cloud (EC2) is a web service that provides resizable compute capacity in the cloud. In this project, an EC2 instance is used to create the Airflow server, allowing for the scheduling and monitoring of workflows.
 
