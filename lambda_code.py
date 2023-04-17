@@ -110,7 +110,7 @@ def load_data(bucket, conn, index):
 def lambda_handler(event, context):
     
     # set bucket name
-    bucket = 'coinmarketcap-bucket'
+    bucket = 'bucket_name'
     
     index = transform_data(bucket)
 
