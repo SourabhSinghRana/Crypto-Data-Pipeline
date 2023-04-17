@@ -60,7 +60,7 @@ def main():
 	columns = ['SYSTEM_INSERTED_TIMESTAMP', 'RANK','NAME', 'SYMBOL', 'PRICE', 'PERCENT_CHANGE_24H','VOLUME_24H', 'MARKET_CAP']
 	df = pd.DataFrame(columns=columns, data=allRecordsCombined)
 	current_timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-	df.to_csv('s3://coinmarketcap-bucket/raw_layer/{}.csv'.format(current_timestamp), index=False)
+	df.to_csv('s3://bucket_name/raw_layer/{}.csv'.format(current_timestamp), index=False)
 	#df.to_csv(f"{dag_path}/dags/output/{current_timestamp}.csv", index=False)
 	#print(f"FILE created at: {dag_path}/output/{current_timestamp}.csv")
 	
