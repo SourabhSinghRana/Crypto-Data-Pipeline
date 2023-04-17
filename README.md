@@ -30,4 +30,6 @@ Amazon Redshift is a fully managed, petabyte-scale data warehouse service in the
 ## 9. Power Bi: 
 Power BI is a suite of business analytics tools to analyze data and share insights. In this project, Power Bi is used to analyze data from Redshift and create forecasting charts, providing insights into cryptocurrency data.
 
-In summary, these various tools and technologies are utilized to perform data-related tasks for cryptocurrency data analysis. The project involves using Airflow, EC2, BeautifulSoup, Pandas, S3, Lambda, AWS EventBridge Scheduler, Redshift, and Power Bi to perform data transformation, scraping, storage, and analysis tasks.
+
+### In summary, these various tools and technologies are utilized to perform data-related tasks for cryptocurrency data analysis. The project involves using Airflow, EC2, BeautifulSoup, Pandas, S3, Lambda, AWS EventBridge Scheduler, Redshift, and Power Bi to perform data transformation, scraping, storage, and analysis tasks.
+
