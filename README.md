@@ -1,5 +1,8 @@
 # Crypto-Data-Pipeline
-Data Pipeline for loading scraped data to redshift.
+Data Pipeline for scraping data from crypto.com and loading it to redshift.
+
+![data pipeline](https://user-images.githubusercontent.com/128234000/234315274-e51b97bf-6885-4c40-8a79-2f89609fac94.png)
+
 
 The project involves utilizing various tools and technologies to perform data transformation, scraping, storage, and analysis related to cryptocurrency data. Here's how these tools are being used:
 
