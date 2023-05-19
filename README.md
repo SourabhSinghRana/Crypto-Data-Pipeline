@@ -1,4 +1,4 @@
-# Crypto-Data-Pipeline
+# Crypto-Data-Pipeline Using Airflow
 Data Pipeline for scraping data from crypto.com and loading it to redshift.
 
 ![data pipeline](https://user-images.githubusercontent.com/128234000/234315274-e51b97bf-6885-4c40-8a79-2f89609fac94.png)
